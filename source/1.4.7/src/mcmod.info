@@ -1,0 +1,19 @@
+[
+{
+  "modid": "mod_WorldDumper",
+  "name": "WorldDumper",
+  "description": "Utility for creating dumps of worlds and items for modpack migration",
+  "version": "0.0.4",
+  "credits": "Created by Meems33",
+  "logoFile": "",
+  "mcversion": "1.4.7",
+  "url": "https://github.com/Meems33/WorldDumper",
+  "updateUrl": "",
+  "authors": [ "Meems33" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+         "mod_MinecraftForge"
+]
+}
+]

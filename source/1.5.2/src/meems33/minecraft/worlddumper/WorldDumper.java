@@ -26,7 +26,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
-@Mod(modid = "mod_WorldDumper", name="WorldDumper", version="0.0.4")
+@Mod(modid = "mod_WorldDumper", name = "WorldDumper", version = "0.0.4")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class WorldDumper  {
 	private static final String[]	DEFAULT_IDS_IGNORE = new String[] { "0:0", "34:0", "36:0" };
@@ -61,7 +61,7 @@ public class WorldDumper  {
 		}
 		
 		// load config
-		String[] ignoreByIDsRaw = config.get("ignore", "ids", new String[0]).valueList;
+		String[] ignoreByIDsRaw = config.get("ignore", "ids", new String[0]).getStringList();
 		if (ignoreByIDsRaw != null) {
 			Collection<String> ignoreByIDs = new HashSet<String>();
 			for (int i = 0; i < ignoreByIDsRaw.length; ++i) {
@@ -76,7 +76,7 @@ public class WorldDumper  {
 			System.out.println(ignoreByIDs);
 		}
 		
-		String[] ignoreByDisplayNameRaw = config.get("ignore", "names", new String[0]).valueList;
+		String[] ignoreByDisplayNameRaw = config.get("ignore", "names", new String[0]).getStringList();
 		if (ignoreByDisplayNameRaw != null) {
 			Collection<String> ignoreByDisplayName = new TreeSet<String>(String.CASE_INSENSITIVE_ORDER);
 			
