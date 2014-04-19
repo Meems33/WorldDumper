@@ -42,7 +42,7 @@ While in game as an operator, the following commands can be used:
 /worlddump listmods
 	List the mods that have items that will be used with other worlddump commands
 	
-/worlddump world <mod_name|ALL> <x> <y> <z>
+/worlddump world &lt;mod_name|ALL> &lt;x> &lt;y> &lt;z>
 	*** WARNING: Modifies world. Suggest using on an empty superflat world! ***
 	Places every item in a world along with information about the item. Every dump includes a chest with the item in it. 
 	Blocks are placed if possible.
@@ -54,4 +54,4 @@ While in game as an operator, the following commands can be used:
 
 Screenshots
 ===========
-![alt tag](https://raw.github.com/Meems33/WorldDumper/tree/master/screenshots/worlddump_example1.png)
+![alt tag](https://raw.github.com/Meems33/WorldDumper/master/screenshots/worlddump_example1.png)
