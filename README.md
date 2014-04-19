@@ -29,14 +29,16 @@ While in game as an operator, the following commands can be used:
 /worlddump items
 	Creates a csv file with every player obtainable item. The csv file contains the following information based on the CLIENT configuration files:
 	ID,Meta,Type,Mod,Class,Unlocalized Name,Display Name,Has Nbt
-		ID: The numerical ID of the item
-		Meta: The meta id of the item
-		Type: If the item is a block or an item
-		Mod: The mod the item comes from
-		Class: The Java class of the item
-		Unlocalized Name: A string to identify an item for localization
-		Display Name: The name of the item the player sees
-		Has NBT: If the item uses NBT tags
+	
+	ID: The numerical ID of the item
+	Meta: The meta id of the item
+	Type: If the item is a block or an item
+	Mod: The mod the item comes from
+	Class: The Java class of the item
+	Unlocalized Name: A string to identify an item for localization
+	Display Name: The name of the item the player sees
+	Has NBT: If the item uses NBT tags
+		
 /worlddump listmods
 	List the mods that have items that will be used with other worlddump commands
 	
@@ -50,4 +52,6 @@ While in game as an operator, the following commands can be used:
 	<y>: The y coordinate used to start the dump at
 	<z>: The z coordinate used to determine the z chunk to start the dump at
 
-		
+Screenshots
+===========
+![alt tag](https://raw.github.com/Meems33/WorldDumper/screenshots/worlddump_example1.png)
