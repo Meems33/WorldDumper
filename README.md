@@ -54,4 +54,4 @@ While in game as an operator, the following commands can be used:
 
 Screenshots
 ===========
-![alt tag](https://raw.github.com/Meems33/WorldDumper/screenshots/worlddump_example1.png)
+![alt tag](https://raw.github.com/Meems33/WorldDumper/tree/master/screenshots/worlddump_example1.png)
